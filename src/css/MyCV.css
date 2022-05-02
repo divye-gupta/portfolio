@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@300;400&display=swap');
+
+.mycvmain> iframe{
+    background-color: #0C0C60;
+    position: absolute;
+    left: 190px;
+    width: 86.5%;
+}
+.mycvmain>a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    text-decoration: none;
+}
+.mycvmain>a>button{
+    padding: 10px;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+    font-size: large;
+}
+
+@media (max-width: 799px) {
+    .mycvmain> iframe{
+        background-color: #0C0C60;
+        position: absolute;
+        left: 5px;
+        width: 96.5%;
+    }
+
+}

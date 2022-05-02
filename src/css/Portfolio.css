@@ -1,0 +1,123 @@
+/* .portfolioMain{
+   
+    position: absolute;
+    left: 0px;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+.about {
+  background-color: #0c0c60;
+  padding: 150px;
+}
+.para {
+  padding-left: 190px;
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.about > h1 {
+  padding-left: 190px;
+  color: white;
+  margin-bottom: 100px;
+  font-size: 70px;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+
+.box2 {
+  background-color: #e5e3e3;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+.box2 > h1 {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 50px;
+  text-decoration: underline;
+  color: #0c0c60;
+  padding: 20px;
+  padding-top: 55px;
+}
+
+.box3 {
+  background-color: #c6b198;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 20px;
+
+}
+
+.box3 > h1 {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 50px;
+  text-decoration: underline;
+  color: #0c0c60;
+  padding: 20px;
+}
+
+
+
+@media (max-width: 799px) {
+  .about>h1{
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    margin-right:40px ;
+    padding: 0;
+  }
+  .about>p{
+    font-size: smaller;
+    font-family: "Roboto", sans-serif;
+    margin-right:20px ;
+    padding: 20px;
+  }
+  .about{
+    border: 23px solid #0c0c60;
+    padding: 0;
+  }
+}
+
+
+
+/* Waves and layers SVG */
+
+
+.wave1 {
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave1 svg {
+  position: relative;
+  display: block;
+  width: calc(122% + 1.3px);
+  height: 137px;
+}
+
+.wave1 .shape-fill {
+  fill: #0C0C60;
+}
+
+.spacer{
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.layer1{
+  background-image: url('../assets/waves.svg');
+}
+#visual{
+  aspect-ratio: 960/300;
+  width: 100%;
+}

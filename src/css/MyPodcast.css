@@ -1,0 +1,15 @@
+.MyPodcastmain > iframe {
+  background-color: #0c0c60;
+  position: absolute;
+  left: 190px;
+  width: 86.5%;
+}
+
+@media (max-width: 799px) {
+  .MyPodcastmain > iframe {
+    background-color: #0c0c60;
+    position: absolute;
+    left: 5px;
+    width: 96.5%;
+  }
+}
