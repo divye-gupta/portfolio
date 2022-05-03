@@ -50,7 +50,6 @@
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 20px;
-
 }
 
 .box3 > h1 {
@@ -62,47 +61,59 @@
   padding: 20px;
 }
 
-.certificates{
-  margin-left:250px ;
+.certificates {
+  margin-left: 250px;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3, 1fr);
 }
-.certi{
-  margin: 20px;
+.certi {
+  margin: 10px;
   width: 20vw;
   height: auto;
 }
+.certi:hover {
+  transform: scale(2.2);
+  z-index: 1000;
+  
+}
 
 @media (max-width: 799px) {
-  .about>h1{
+  .about > h1 {
     font-size: 45px;
     font-family: "Roboto", sans-serif;
-    margin-right:40px ;
+    margin-right: 40px;
     padding: 0;
   }
-  .about>p{
+  .about > p {
     font-size: smaller;
     font-family: "Roboto", sans-serif;
-    margin-right:20px ;
+    margin-right: 20px;
     padding: 20px;
   }
-  .about{
+  .about {
     border: 23px solid #0c0c60;
     padding: 0;
   }
-  .certificates{
-    margin-left:0px ;
+  .certificates {
+    margin-left: 0px;
+    grid-template-columns: repeat(2, 1fr);
   }
-  
-  h1{
+
+  .certi {
+    width: 40vw;
+    height: auto;
+  }
+  .certi:hover {
+    transition: width 0.5s, height 0.5s; 
+    transform: scale(1.7);
+  }
+
+  h1 {
     font-size: medium;
   }
 }
 
-
-
 /* Waves and layers SVG */
-
 
 .wave1 {
   position: absolute;
@@ -121,19 +132,19 @@
 }
 
 .wave1 .shape-fill {
-  fill: #0C0C60;
+  fill: #0c0c60;
 }
 
-.spacer{
+.spacer {
   aspect-ratio: 960/300;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.layer1{
-  background-image: url('../assets/waves.svg');
+.layer1 {
+  background-image: url("../assets/waves.svg");
 }
-#visual{
+#visual {
   aspect-ratio: 960/300;
   width: 100%;
 }

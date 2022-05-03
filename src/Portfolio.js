@@ -2,6 +2,19 @@ import React from "react";
 import "./css/Portfolio.css";
 import WorkTimeline from "./components/WorkTimeline";
 import Volunteering from "./components/Volunteering";
+import embark from "./awards/embark.jpg";
+import cograd from "./awards/cograd.png";
+import d2c from "./awards/d2c.png";
+import es6 from "./awards/es6.png";
+import ieee from "./awards/ieee.png";
+import inception from "./awards/Inception.png";
+import nsoj from "./awards/nsoj.png";
+import seo from "./awards/seo.png";
+import technopairs from "./awards/technopairs.png";
+import webocode from "./awards/webocode.png";
+import react from './awards/react.jpeg';
+
+
 const Portfolio = () => {
   return (
     <div className="portfolioMain">
@@ -36,16 +49,17 @@ const Portfolio = () => {
       <div className="box3">
         <h1>Awards and Achievements</h1>
         <div className="certificates">
-          <img src='./awards/embark.jpg' alt="This is a certificate" className="certi" />
-          <img src="./awards/cograd.png" alt="This is a certificate" className="certi" />
-          <img src="./awards/d2c.png" alt="This is a certificate" className="certi" />
-          <img src="./awards/es6.png" alt="This is a certificate" className="certi" />
-          <img src="./awards/ieee.png" alt="This is a certificate" className="certi" />
-          <img src="./awards/inception.png" alt="This is a certificate" className="certi" />
-          <img src="./awards/nsoj.png" alt="This is a certificate" className="certi" />
-          <img src="./awards/seo.png" alt="This is a certificate" className="certi" />
-          <img src="./awards/technopairs.png" alt="This is a certificate" className="certi" />
-          <img src="./awards/webocode.png" alt="This is a certificate" className="certi" />
+          <img src={embark} alt="This is a certificate" className="certi" />
+          <img src={cograd} alt="This is a certificate" className="certi" />
+          <img src={d2c} alt="This is a certificate" className="certi" />
+          <img src={es6} alt="This is a certificate" className="certi" />
+          <img src={ieee} alt="This is a certificate" className="certi" />
+          <img src={inception} alt="This is a certificate" className="certi" />
+          <img src={nsoj} alt="This is a certificate" className="certi" />
+          <img src={seo} alt="This is a certificate" className="certi" />
+          <img src={technopairs} alt="This is a certificate" className="certi" />
+          <img src={webocode} alt="This is a certificate" className="certi" />
+          <img src={react} alt="This is a certificate" className="certi" />
         </div>
       </div>
     </div>
