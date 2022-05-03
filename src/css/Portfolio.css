@@ -62,7 +62,16 @@
   padding: 20px;
 }
 
-
+.certificates{
+  margin-left:250px ;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.certi{
+  margin: 20px;
+  width: 20vw;
+  height: auto;
+}
 
 @media (max-width: 799px) {
   .about>h1{
@@ -80,6 +89,13 @@
   .about{
     border: 23px solid #0c0c60;
     padding: 0;
+  }
+  .certificates{
+    margin-left:0px ;
+  }
+  
+  h1{
+    font-size: medium;
   }
 }
 

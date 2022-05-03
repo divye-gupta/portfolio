@@ -32,53 +32,21 @@ const Portfolio = () => {
         <Volunteering />
       </div>
       <div className="spacer layer1"></div>
+      
       <div className="box3">
         <h1>Awards and Achievements</h1>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <div className="certificates">
+          <img src='./awards/embark.jpg' alt="This is a certificate" className="certi" />
+          <img src="./awards/cograd.png" alt="This is a certificate" className="certi" />
+          <img src="./awards/d2c.png" alt="This is a certificate" className="certi" />
+          <img src="./awards/es6.png" alt="This is a certificate" className="certi" />
+          <img src="./awards/ieee.png" alt="This is a certificate" className="certi" />
+          <img src="./awards/inception.png" alt="This is a certificate" className="certi" />
+          <img src="./awards/nsoj.png" alt="This is a certificate" className="certi" />
+          <img src="./awards/seo.png" alt="This is a certificate" className="certi" />
+          <img src="./awards/technopairs.png" alt="This is a certificate" className="certi" />
+          <img src="./awards/webocode.png" alt="This is a certificate" className="certi" />
+        </div>
       </div>
     </div>
   );
