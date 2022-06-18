@@ -144,6 +144,26 @@
   border-radius: 30px;
 }
 
+
+/* Projects */
+.projectshead {
+  background: linear-gradient(180deg, #E5E3E3 8.21%, #876B5C 77.15%);
+  width: auto;
+  height: 10rem;
+  position: relative;
+  top: -2rem;
+}
+.projectshead h1 {
+  color: white;
+  text-align: center;
+  padding: 4rem;
+  font-size: 2.7em;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+}
+
+
 @media (max-width: 799px) {
   .skillcards {
     margin-left: 3%;

@@ -34,10 +34,12 @@ const Navbar = () => {
                 </>
             </div>
         </div>
+
+        
         <div className="navbarmob">
-        <div className="displayimagemob">
+            <div className="displayimagemob">
                 <img src="./assets/DivyeGupta.jpeg" alt="" />
-        </div>
+            </div>
             <div className="pagesmob">
                 <Link to = '/'> <h3 className="words">About</h3></Link>
                 <Link to = '/projects'> <h3 className="words">Projects</h3></Link>
