@@ -51,7 +51,7 @@ const WorkTimeline = () => {
                 <h3 class="date">Dec 2020 – Present</h3>
                 <h1>Podcaster</h1>
                 <p>
-                  <b>Melioristic Misfits</b> <br />
+                  <b>In Essence Podcast</b> <br />
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Consectetur tempora ab laudantium voluptatibus aut eos placeat
                   laborum, quibusdam exercitationem labore.

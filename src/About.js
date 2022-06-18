@@ -13,22 +13,22 @@ import seo from "./awards/seo.png";
 import technopairs from "./awards/technopairs.png";
 import webocode from "./awards/webocode.png";
 import react from './awards/react.jpeg';
+import evotech from "./awards/evotech.png";
+import p2h from "./awards/p2h.png";
 
 
-const Portfolio = () => {
+const About = () => {
   return (
     <div className="portfolioMain">
       <div className="about">
         <h1>Divye Gupta</h1>
         <p className="para">
-          I’m a Computer Science Engineering student having knowledge in C++,
-          JavaScript, C, React JS, React Native, HTML and CSS, which could be
-          very useful for my contribution in the field of software development.
-          Interested in fathoming challenges, learning new things and
-          technologies. Being a podcaster, I’m fairly good at presentations and
-          communication skills. Looking for an environment where I can
-          contribute to self as well as organisation’s growth. Feel free to
-          navigate around this website to learn more about me!
+        I’m a Bachelor of Technology student in Computer Science Engineering with a wide range of tech skills in various domains like 
+        Web Development, Cross-platform application development, Cloud services, DBMS, and DSA, with the help of which I look forward 
+        to contributing to the field of technological innovation. Being an entrepreneur at heart I participate in business challenges 
+        and pitches as well as take a keen interest in the startup world. In addition to my academic side, I’m a content writer and 
+        creator, and podcaster.  Always seeking opportunities to upskill and enhance me.
+          <br /> <b>Feel free to navigate around this website to learn more about me!</b>
         </p>
       </div>
       <div class="wave1">
@@ -60,10 +60,12 @@ const Portfolio = () => {
           <img src={technopairs} alt="This is a certificate" className="certi" />
           <img src={webocode} alt="This is a certificate" className="certi" />
           <img src={react} alt="This is a certificate" className="certi" />
+          <img src={evotech} alt="This is a certificate" className="certi" />
+          <img src={p2h} alt="This is a certificate" className="certi" />
         </div>
       </div>
     </div>
   );
 };
 
-export default Portfolio;
+export default About;

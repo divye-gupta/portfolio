@@ -1,0 +1,166 @@
+/* General Styling */
+
+.skillsmain {
+  background-color: #e5e3e3;
+}
+
+.skillhead {
+  background-color: #0c0c60;
+  width: auto;
+  height: 10rem;
+  position: relative;
+  top: -2rem;
+}
+.skillhead h1 {
+  color: white;
+  text-align: center;
+  padding: 4rem;
+  font-size: 2.7em;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Grid */
+
+.skillcards {
+  margin-left: 18vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 0.35fr);
+}
+
+.card {
+  width: 42.26%;
+  padding: 20px;
+  margin: 2rem;
+  height: fit-content;
+  text-align: center;
+  background-color: #e0e0c8;
+  box-shadow: 3px 5px 13px rgba(0, 0, 0, 0.25);
+  border-radius: 17px;
+}
+
+.card img {
+  height: 64px;
+}
+
+.skillname {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  color: #0c0c60;
+}
+.percentage {
+  text-align: right;
+  font-size: larger;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  color: #876b5c;
+}
+
+.outbar {
+  width: 97%;
+  height: 11px;
+  background-color: white;
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+/* Specific styling */
+.inbarhtml {
+  width: 87.3%;
+  height: 11px;
+  background: #876b5c;
+  border-radius: 30px;
+}
+.inbarcss {
+  width: 85.3%;
+  height: 11px;
+  background: #876b5c;
+  border-radius: 30px;
+}
+.inbarjs {
+  width: 77.6%;
+  height: 11px;
+  background: #876b5c;
+  border-radius: 30px;
+}
+.inbarreactjs {
+  width: 67.9%;
+  height: 11px;
+  background: #876b5c;
+  border-radius: 30px;
+}
+.inbarreactn {
+  width: 65.9%;
+  height: 11px;
+  background: #876b5c;
+  border-radius: 30px;
+}
+.inbarfigma {
+  width: 77.6%;
+  height: 11px;
+  background: #876b5c;
+  border-radius: 30px;
+}
+.inbarc {
+  width: 77.6%;
+  height: 11px;
+  background: #876b5c;
+  border-radius: 30px;
+}
+.inbarcpp {
+  width: 77.6%;
+  height: 11px;
+  background: #876b5c;
+  border-radius: 30px;
+}
+.inbarnext {
+  width: 67.9%;
+  height: 11px;
+  background: #876b5c;
+  border-radius: 30px;
+}
+.inbaraws {
+  width: 48.5%;
+  height: 11px;
+  background: #876b5c;
+  border-radius: 30px;
+}
+.inbarfirebase {
+  width: 38.8%;
+  height: 11px;
+  background: #876b5c;
+  border-radius: 30px;
+}
+.inbarcontent {
+  width: 87.3%;
+  height: 11px;
+  background: #876b5c;
+  border-radius: 30px;
+}
+
+@media (max-width: 799px) {
+  .skillcards {
+    margin-left: 3%;
+    padding: 0;
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  .card {
+    width: 50%;
+    padding: 15px;
+    margin: 1.2rem;
+    height: fit-content;
+    text-align: center;
+    border-radius: 17px;
+  }
+
+  .skillname, .percentage{
+    font-size: 1em;
+  } 
+}

@@ -49,9 +49,11 @@
 
 
 
-
-
-
+@media (max-width: 799px) {
+  .timeline-content .date {
+    color: #fff;
+  }
+}
 
 
 
@@ -103,6 +105,7 @@
   .timeline-content .date {
     position: absolute;
     top: -30px;
+    /* color: #fff; */
   }
   .timeline ul li:hover::before {
     background-color: #0C0C60;

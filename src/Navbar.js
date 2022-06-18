@@ -16,7 +16,7 @@ const Navbar = () => {
                 <p>Divye Gupta</p>
             </div>
             <div className="pages">
-                <Link to = '/'> <h3>Portfolio</h3></Link>
+                <Link to = '/'> <h3>About</h3></Link>
                 <Link to = '/projects'> <h3>Projects</h3></Link>
                 <Link to = '/contact'> <h3>Contact Me</h3></Link>
                 <div className="gap">
@@ -39,7 +39,7 @@ const Navbar = () => {
                 <img src="./assets/DivyeGupta.jpeg" alt="" />
         </div>
             <div className="pagesmob">
-                <Link to = '/'> <h3 className="words">Portfolio</h3></Link>
+                <Link to = '/'> <h3 className="words">About</h3></Link>
                 <Link to = '/projects'> <h3 className="words">Projects</h3></Link>
                 <Link to = '/contact'> <h3 className="words">Contact Me</h3></Link>    
                 <Link to = '/CV'> <h3 className="words">My CV</h3></Link>
