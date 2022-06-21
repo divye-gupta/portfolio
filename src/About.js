@@ -13,8 +13,8 @@ import seo from "./awards/seo.png";
 import technopairs from "./awards/technopairs.png";
 import webocode from "./awards/webocode.png";
 import react from './awards/react.jpeg';
-import evotech from "./awards/evotech.png";
-import p2h from "./awards/p2h.png";
+import evotech from "./awards/evotech.jpg";
+import p2h from "./awards/p2h.jpg";
 
 
 const About = () => {
