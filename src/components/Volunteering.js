@@ -44,7 +44,7 @@ const Volunteering = () => {
 
         <div class="timeline__component timeline__component--bottom timeline__component--bg">
           <h2 class="timeline__title">Anchor</h2>
-          <p class="timeline__paragraph"> <b>BVEST</b> <br/> Anchoring of Web-o-Code and Techno Pairs events in BVEST (Tech Fest of BVCOE)</p>
+          <p class="timeline__paragraph"> <b>BVEST</b> <br/> Anchoring of Web-o-Code, Techno Pairs and De-blog events in BVEST (Tech Fest of BVCOE)</p>
         </div>
         <div class="timeline__middle">
           <div class="timeline__point"></div>
@@ -56,27 +56,14 @@ const Volunteering = () => {
 
 
         <div class="timeline__component">
-          <div class="timeline__date timeline__date--right">Nov 2021</div>
+          <div class="timeline__date timeline__date--right">May 2022</div>
         </div>
         <div class="timeline__middle">
           <div class="timeline__point"></div> 
         </div> 
         <div class="timeline__component timeline__component--bg">
-          <h2 class="timeline__title">Spokesperson at Hactoberfest meetup</h2>
-          <p class="timeline__paragraph"> <b>Microsoft Learn Student Ambassador's Chapter (MLSAC-BVP)</b><br/>Presented and explained my team's web project on a meeting intended for hacktoberfest participation.</p>
-        </div>
-
-
-        <div class="timeline__component timeline__component--bottom timeline__component--bg">
           <h2 class="timeline__title">Web Developer and Logistics Manager</h2>
-          <p class="timeline__paragraph"> <b>Evotech 5.0</b> <br/> Developed a website and managed the logistics for the flagship event of CSE department of our college</p>
-        </div>
-        <div class="timeline__middle">
-          <div class="timeline__point"></div>
-          {/* <div class="timeline__point timeline__point--bottom"></div> */} 
-        </div>
-        <div class="timeline__component timeline__component--bottom">
-          <div class="timeline__date">May 2022</div>
+          <p class="timeline__paragraph"> <b>Evotech 5.0</b><br/>Developed a website and managed the logistics for the flagship event of CSE department of our college</p>
         </div>
 
 
