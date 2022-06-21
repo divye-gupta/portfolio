@@ -1,8 +1,8 @@
-/* .portfolioMain{
-   
-    position: absolute;
-    left: 0px;
-} */
+.portfolioMain{
+   width: 100vw;
+    /* position: absolute; */
+    /* left: 0px; */
+}
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
@@ -108,8 +108,12 @@
     transform: scale(1.7);
   }
 
-  h1 {
-    font-size: medium;
+  .box2 h1 {
+    font-size: xx-large;
+  }
+
+  .box3 h1 {
+    font-size: xx-large;
   }
 }
 
